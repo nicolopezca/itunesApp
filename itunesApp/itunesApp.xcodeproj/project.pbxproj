@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7F7A73C9275F5DAE00E153FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A73C8275F5DAE00E153FC /* AppDelegate.swift */; };
 		7F7A73CB275F5DAE00E153FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A73CA275F5DAE00E153FC /* SceneDelegate.swift */; };
-		7F7A73D0275F5DAE00E153FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A73CE275F5DAE00E153FC /* Main.storyboard */; };
 		7F7A73D2275F5DB000E153FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A73D1275F5DB000E153FC /* Assets.xcassets */; };
 		7F7A73D5275F5DB000E153FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A73D3275F5DB000E153FC /* LaunchScreen.storyboard */; };
 		7F7A73E0275F5DB000E153FC /* itunesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A73DF275F5DB000E153FC /* itunesAppTests.swift */; };
@@ -22,6 +21,13 @@
 		7F7A740B275F5F9500E153FC /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A740A275F5F9500E153FC /* HomeCoordinator.swift */; };
 		7F7A740E275F600300E153FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A740C275F600300E153FC /* HomeViewController.swift */; };
 		7F7A740F275F600300E153FC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A740D275F600300E153FC /* HomeViewController.xib */; };
+		7F7A7413275F73A500E153FC /* AuthorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A7411275F73A500E153FC /* AuthorCell.swift */; };
+		7F7A7414275F73A500E153FC /* AuthorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A7412275F73A500E153FC /* AuthorCell.xib */; };
+		7F7A7417275F752E00E153FC /* ItunesAuthorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A7416275F752E00E153FC /* ItunesAuthorViewModel.swift */; };
+		7F7A741D275F87FB00E153FC /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A741C275F87FB00E153FC /* BaseCoordinator.swift */; };
+		7F7A741F275F881A00E153FC /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A741E275F881A00E153FC /* BasePresenter.swift */; };
+		7F7A7422275F884100E153FC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7A7420275F884100E153FC /* BaseViewController.swift */; };
+		7F7A7423275F884100E153FC /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7A7421275F884100E153FC /* BaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +51,6 @@
 		7F7A73C5275F5DAE00E153FC /* itunesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itunesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7A73C8275F5DAE00E153FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F7A73CA275F5DAE00E153FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F7A73CF275F5DAE00E153FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F7A73D1275F5DB000E153FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F7A73D4275F5DB000E153FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F7A73D6275F5DB000E153FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +68,13 @@
 		7F7A740A275F5F9500E153FC /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		7F7A740C275F600300E153FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7F7A740D275F600300E153FC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7F7A7411275F73A500E153FC /* AuthorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorCell.swift; sourceTree = "<group>"; };
+		7F7A7412275F73A500E153FC /* AuthorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorCell.xib; sourceTree = "<group>"; };
+		7F7A7416275F752E00E153FC /* ItunesAuthorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAuthorViewModel.swift; sourceTree = "<group>"; };
+		7F7A741C275F87FB00E153FC /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		7F7A741E275F881A00E153FC /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		7F7A7420275F884100E153FC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7F7A7421275F884100E153FC /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +129,6 @@
 				7F7A73F8275F5E2800E153FC /* Modules */,
 				7F7A73C8275F5DAE00E153FC /* AppDelegate.swift */,
 				7F7A73CA275F5DAE00E153FC /* SceneDelegate.swift */,
-				7F7A73CE275F5DAE00E153FC /* Main.storyboard */,
 				7F7A73D1275F5DB000E153FC /* Assets.xcassets */,
 				7F7A73D3275F5DB000E153FC /* LaunchScreen.storyboard */,
 				7F7A73D6275F5DB000E153FC /* Info.plist */,
@@ -146,6 +157,7 @@
 		7F7A73F8275F5E2800E153FC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				7F7A7418275F87C700E153FC /* Base */,
 				7F7A7401275F5EF000E153FC /* Home */,
 			);
 			path = Modules;
@@ -172,6 +184,8 @@
 		7F7A7401275F5EF000E153FC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7F7A7415275F74C200E153FC /* ViewModels */,
+				7F7A7410275F71EF00E153FC /* ViewComponents */,
 				7F7A7405275F5F2300E153FC /* Interactor */,
 				7F7A7404275F5F1A00E153FC /* View */,
 				7F7A7403275F5F1200E153FC /* Presenter */,
@@ -211,6 +225,58 @@
 				7F7A7406275F5F4600E153FC /* HomeInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7F7A7410275F71EF00E153FC /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A7411275F73A500E153FC /* AuthorCell.swift */,
+				7F7A7412275F73A500E153FC /* AuthorCell.xib */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		7F7A7415275F74C200E153FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A7416275F752E00E153FC /* ItunesAuthorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7F7A7418275F87C700E153FC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A741B275F87DE00E153FC /* View */,
+				7F7A741A275F87D600E153FC /* Presenter */,
+				7F7A7419275F87D000E153FC /* Coordinator */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7F7A7419275F87D000E153FC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A741C275F87FB00E153FC /* BaseCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		7F7A741A275F87D600E153FC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A741E275F881A00E153FC /* BasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7F7A741B275F87DE00E153FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A7420275F884100E153FC /* BaseViewController.swift */,
+				7F7A7421275F884100E153FC /* BaseViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +384,8 @@
 			files = (
 				7F7A73D5275F5DB000E153FC /* LaunchScreen.storyboard in Resources */,
 				7F7A73D2275F5DB000E153FC /* Assets.xcassets in Resources */,
-				7F7A73D0275F5DAE00E153FC /* Main.storyboard in Resources */,
+				7F7A7423275F884100E153FC /* BaseViewController.xib in Resources */,
+				7F7A7414275F73A500E153FC /* AuthorCell.xib in Resources */,
 				7F7A740F275F600300E153FC /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +416,14 @@
 				7F7A740B275F5F9500E153FC /* HomeCoordinator.swift in Sources */,
 				7F7A73C9275F5DAE00E153FC /* AppDelegate.swift in Sources */,
 				7F7A740E275F600300E153FC /* HomeViewController.swift in Sources */,
+				7F7A7422275F884100E153FC /* BaseViewController.swift in Sources */,
 				7F7A7400275F5EA800E153FC /* DependenciesContainer.swift in Sources */,
+				7F7A7413275F73A500E153FC /* AuthorCell.swift in Sources */,
+				7F7A741D275F87FB00E153FC /* BaseCoordinator.swift in Sources */,
+				7F7A741F275F881A00E153FC /* BasePresenter.swift in Sources */,
 				7F7A73CB275F5DAE00E153FC /* SceneDelegate.swift in Sources */,
 				7F7A7407275F5F4600E153FC /* HomeInteractor.swift in Sources */,
+				7F7A7417275F752E00E153FC /* ItunesAuthorViewModel.swift in Sources */,
 				7F7A7409275F5F6500E153FC /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,14 +460,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7F7A73CE275F5DAE00E153FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F7A73CF275F5DAE00E153FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F7A73D3275F5DB000E153FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
