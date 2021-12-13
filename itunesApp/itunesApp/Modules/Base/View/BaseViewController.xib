@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="itunesApp" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseViewController" customModule="itunesApp" customModuleProvider="target">
             <connections>
-                <outlet property="tableview" destination="ZUh-qA-A2O" id="inz-tW-cBy"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="OxC-ks-rws"/>
+                <outlet property="activityIndicator" destination="Khp-Iv-KMp" id="SV0-Aa-mDu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Ph8-wA-WoF"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -19,20 +19,17 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZUh-qA-A2O">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Khp-Iv-KMp">
+                    <rect key="frame" x="197" y="722" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ZUh-qA-A2O" secondAttribute="bottom" id="DGs-m5-xrc"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZUh-qA-A2O" secondAttribute="trailing" id="FZT-QE-g3G"/>
-                <constraint firstItem="ZUh-qA-A2O" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="N5k-L5-Ycf"/>
-                <constraint firstItem="ZUh-qA-A2O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jyY-MW-Pej"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Khp-Iv-KMp" secondAttribute="bottom" constant="120" id="qT6-2q-OFQ"/>
+                <constraint firstItem="Khp-Iv-KMp" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="zBE-ih-LSK"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="146"/>
+            <point key="canvasLocation" x="137.68115942028987" y="140.625"/>
         </view>
     </objects>
     <resources>

@@ -11,6 +11,8 @@ class AuthorCell: UITableViewCell {
 
     @IBOutlet private weak var nameLabel: UILabel!
     @IBOutlet private weak var styleLabel: UILabel!
+    static let cellReuseIdentifier = "SunsetTableViewCell"
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,5 +21,7 @@ class AuthorCell: UITableViewCell {
     func setViewModel(_ viewModel: ItunesAuthorViewModel) {
         self.nameLabel.text = viewModel.name
         self.styleLabel.text = viewModel.style
+        self.nameLabel.numberOfLines = 0
+        self.styleLabel.numberOfLines = 0
     }
 }
